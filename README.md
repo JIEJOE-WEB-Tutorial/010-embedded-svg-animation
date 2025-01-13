@@ -1,4 +1,4 @@
-# 10 - 嵌入式SVG动画
+# 10 - 嵌入式SVG动画指南
 <a href="https://www.bilibili.com/video/BV1uW421c75b">
 <img src="https://i2.hdslb.com/bfs/archive/5eb1a4a35c6dc72d5889b4342f78d28a2c76383b.jpg" width="70%">
 </a>
