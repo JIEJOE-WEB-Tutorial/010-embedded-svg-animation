@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=initial-scale=1.0">
+    <title>venus</title>
+    <style>
+        * {
+            font-size: 2vmin;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            background-color: #171717;
+        }
+
+        .venus {
+            position: absolute;
+            width: 25rem;
+            overflow: visible;
+        }
+
+        .venus_circle {
+            fill: #17F700;
+            animation: venus_circle 2s ease infinite;
+        }
+
+        @keyframes venus_circle {
+            0% {
+                fill: #17F700;
+            }
+
+            30% {
+                fill: #B20426;
+            }
+
+            80% {
+                fill: #B20426;
+            }
+
+            100% {
+                fill: #17F700;
+            }
+        }
+
+        .venus_line {
+            fill: none;
+            stroke: #17F700;
+            stroke-width: 10;
+            stroke-linecap: round;
+            stroke-dasharray: 100 20;
+            stroke-dashoffset: 0;
+            animation: venus_line 2s ease infinite;
+        }
+
+        @keyframes venus_line {
+            to {
+                stroke-dashoffset: -240;
+            }
+        }
+
+        .venus_forearm {
+            transform-origin: 159.7px 575.7px;
+            animation: venus_forearm 2s ease infinite;
+        }
+
+        @keyframes venus_forearm {
+            0% {
+                transform: rotate(-10deg);
+            }
+
+            30% {
+                transform: rotate(40deg);
+            }
+
+            100% {
+                transform: rotate(-10deg);
+            }
+        }
+
+        .venus_hand {
+            transform-origin: 395.7px 407.6px;
+            animation: venus_hand 2s ease infinite;
+        }
+
+        @keyframes venus_hand {
+            0% {
+                transform: rotate(-30deg);
+            }
+
+            30% {
+                transform: rotate(10deg);
+            }
+
+            100% {
+                transform: rotate(-30deg);
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- JIEJOE produce -->
+    <!-- b站主页：https://space.bilibili.com/3546390319860710 -->
+    <svg viewBox="0 0 550 799.7" class="venus">
+        <image width="550" height="799.7" href="venus/venus body.svg" />
+        <g class="venus_forearm">
+            <image width="550" height="799.7" href="venus/venus forearm.svg" />
+            <circle class="venus_circle" cx="214" cy="549.8" r="10.7" />
+            <line class="venus_line" x1="234.8" y1="527.2" x2="362.5"
+                  y2="432.8" />
+            <image class="venus_hand" width="550" height="799.7"
+                   href="venus/venus hand.svg" />
+        </g>
+    </svg>
+</body>
+
+</html>
