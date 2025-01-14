@@ -14,4 +14,4 @@
 
 ## **Notice⚠️**
 - 在拆分图层的时候，记得保留画板信息，即保留图层的位置信息，否则图层的位置会出现问题
-- 嵌入式SVG如何做一些简单的动画，更高需求更复杂的动画建议使用Lottie.js，详细可以参考[该教程](https://github.com/JIEJOE-WEB-Tutorial/4-lottie-tutorial)
+- 嵌入式SVG如何做一些简单的动画，更高需求更复杂的动画建议使用Lottie.js，详细可以参考[该教程](https://github.com/JIEJOE-WEB-Tutorial/004-lottie-tutorial)
